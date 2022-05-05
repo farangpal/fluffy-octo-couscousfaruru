@@ -77,7 +77,7 @@ if (connectBtn) {
             try {
                 await ethereum.enable();
                 initPayButton()
-                statusp.innerHTML = 'Wallet connected. Mint your NFTs now!'
+                statusp.innerHTML = 'Wallet connected'
                 connectBtn.style.display = "none"
                 checkoutBtn.style.display = "block"
             } catch (err) {
@@ -96,7 +96,7 @@ if (connectBtn) {
 
 const initPayButton = () => {
     checkoutBtn.addEventListener('click', async () => {
-        statusp.innerText = 'Minting in progress....'
+        statusp.innerText = 'Minting in progress'
         // paymentAddress is where funds will be send to
         const paymentAddress = '0x0298Df47618d3E4f8B98aB1904D6639C47cde10F'
         let totalEth = pricePerNFT;
