@@ -4,7 +4,7 @@ const checkoutBtn = document.getElementById('checkoutBtn');
 //const connectBtnHeader = document.querySelector('#connectBtnHeader');
 const web3 = window.Web3;
 const ethereum = window.ethereum;
-const pricePerNFT = 0.4;
+const pricePerNFT = 0.1;
 const show_dc = true;
 /** input number spinner
  */
